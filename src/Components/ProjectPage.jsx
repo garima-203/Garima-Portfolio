@@ -13,26 +13,26 @@ const Project = () => {
         <VerticalTimeline >
           <ProjectCard
             title="Doctor's Dashboard" 
-            link="https://github.com/garima-203/Doctor-Dashboard"
+            link=" https://garima-203.github.io/Doctor-Dashboard/"
              icon="https://img.icons8.com/?size=100&id=EtrvEl4qafJw&format=png&color=000000"
             srcImg={'../DASHBOARD-PROJECT.png'}
           />
 
           <ProjectCard
             title="E-Commerce Template" 
-            link="https://github.com/garima-203/Ecommerce-template"
+            link="https://garima-203.github.io/Ecommerce-template/"
             icon="https://img.icons8.com/?size=100&id=8chNl15hy6jY&format=png&color=000000"
             srcImg={'../ECOM-PROJECT.png'}
           />
           <ProjectCard
             title="Yoga Web Template"
-           link="https://github.com/garima-203/YOGA-TEMPLATE"
+           link="https://garima-203.github.io/YOGA-TEMPLATE/"
             icon="https://img.icons8.com/?size=100&id=hYBKkWFjtuCu&format=png&color=000000"
             srcImg={'../YOGA-PROJECT.png'}
           />
           <ProjectCard
             title="Portfolio Web Template"
-           link="https://github.com/garima-203/PORTFOLIO-TEMPLATE"
+           link=" https://garima-203.github.io/PORTFOLIO-TEMPLATE/"
              icon="https://img.icons8.com/?size=100&id=naDnVpQ3BNkR&format=png&color=000000"
             srcImg={'../Portfolio-Project.png'}
           />
