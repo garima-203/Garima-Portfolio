@@ -8,7 +8,7 @@ import { faCloudArrowDown } from "@fortawesome/free-solid-svg-icons";
 const Home = () => {
     return (
         <>
-            <div className="relative z-10 flex justify-center items-center px-4 py-14 md:py-28">
+            <div className="z-10 relative flex justify-center items-center px-4 py-14 md:py-28">
                 <div className="flex xl:flex-row flex-col justify-center items-center xl:space-x-40 max-w-screen-xl">
                     <Tilt className="z-20">
                         <div className="image-container">
@@ -21,18 +21,18 @@ const Home = () => {
                     </Tilt>
 
                     <div className="z-10 mt-6 xl:mt-0 xl:ml-8 w-full xl:w-1/2 text-center">
-                        <h1 className="mb-2 font-bold font-megrim text-3xl text-gray-300 md:text-5xl xl:text-6xl">Hii! I'm</h1>
+                        <h1 className="mb-2 font-megrim font-bold text-gray-300 text-3xl md:text-5xl xl:text-6xl">Hii! I'm</h1>
                         <div className="flex justify-center items-center mr-11 sm:mr-0 text-center">
                             <img
                                 src="..\logo.svg"
                                 alt="Logo"
-                                className="h-28 sm:h-28 md:h-32 lg:h-40 xl:h-42 transform transition duration-300 hover:scale-105"
+                                className="h-28 sm:h-28 md:h-32 lg:h-40 xl:h-42 hover:scale-105 transition duration-300 transform"
                             />
-                            <h2 className="z-10 font-bold text-center sm:text-3xl md:text-4xl lg:text-2xl xl:text-5xl subhead-color">
+                            <h2 className="z-10 font-bold lg:text-2xl sm:text-3xl md:text-4xl xl:text-5xl text-center subhead-color">
                                 ARIMA Upadhyay
                             </h2>
                         </div>
-                        <h1 className="font-extrabold font-megrim text-2xl text-purple-700 md:text-3xl">
+                        <h1 className="font-megrim font-extrabold text-purple-700 text-2xl md:text-3xl">
                             Frontend Developer</h1>
                         <p className="mb-6 text-gray-300">
                         Hailing from Uttarakhand, I am dedicated to developing meaningful web solutions that prioritize user experience while embracing growth and new technologies. </p>
@@ -45,7 +45,7 @@ const Home = () => {
                                     Save It
                                 </>
                             }
-                            link="https://drive.google.com/file/d/1VYLlreJosX1ol-NKvZ0bmPM3sJl8QwF2/view?usp=drive_link"
+                            link="https://drive.google.com/file/d/1uWkXWGwv4LVIq6x8p13MNreFUrJJSBlY/view?usp=drive_link"
                         />
                     </div>
                 </div>
