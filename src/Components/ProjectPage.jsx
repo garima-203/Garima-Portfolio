@@ -10,7 +10,7 @@ const Project = () => {
         <h1 className="font-serif text-4xl xl:text-7xl title-color">What I've Built</h1>
         <p className="mb-10 font-semibold text-gray-600 dark:text-gray-400 md:text-base text-lg text-center"></p>
 
-        <VerticalTimeline >
+        <VerticalTimeline > 
           <ProjectCard
             title="Real-Estate Website"
             link="https://garima-203.github.io/Estately-RealEstate/"
