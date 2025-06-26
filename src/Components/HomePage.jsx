@@ -44,8 +44,8 @@ const Home = () => {
                                     <FontAwesomeIcon icon={faCloudArrowDown} className="mr-2"/>
                                     Save It
                                 </>
-                            }
-                            link="https://drive.google.com/file/d/1kyqyTDl5l7WN4CBjWJYP6cievqk9cTVN/view?usp=drive_link"
+                            } 
+                            link="https://drive.google.com/file/d/1qSDZt0A5Q8dtRfERQkU0TR08BiHw9qQg/view?usp=sharing"
                         />
                     </div>
                 </div>
