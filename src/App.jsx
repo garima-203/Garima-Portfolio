@@ -29,13 +29,13 @@ function App() {
       <Header/>
      <SocialLink/>
       <Outlet /> 
-      <footer className="text-center text-white">
+      <footer className="text-white text-center">
  © 2025 Designed and Developed by Garima Upadhyay. All rights reserved.
 </footer>
 
       <div className='gap-10'> 
         <button
-         className="right-1/2 bottom-5 z-50 fixed flex justify-center items-center bg-black shadow-md mx-5 rounded-full w-12 h-12 text-white transform -translate-x-1/2 animate-bounce-right hover:scale-110"
+         className="right-1/2 bottom-5 z-50 fixed flex justify-center items-center bg-black shadow-md mx-5 rounded-full w-12 h-12 text-white hover:scale-110 -translate-x-1/2 animate-bounce-right transform"
          onClick={goToPreviousPage}
           aria-label="Go to Previous Page"
         >
@@ -44,7 +44,7 @@ function App() {
 
  
         <button
-          className="bottom-5 left-1/2 z-50 fixed flex justify-center items-center bg-black shadow-md mx-5 rounded-full w-12 h-12 text-white transform -translate-x-1/2 animate-bounce-right hover:scale-110"
+          className="bottom-5 left-1/2 z-50 fixed flex justify-center items-center bg-black shadow-md mx-5 rounded-full w-12 h-12 text-white hover:scale-110 -translate-x-1/2 animate-bounce-right transform"
           onClick={goToNextPage}
           aria-label="Go to Next Page"
         >

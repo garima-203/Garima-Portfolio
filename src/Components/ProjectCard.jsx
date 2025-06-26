@@ -12,9 +12,9 @@ const ProjectCard = ({ title, icon, srcImg,link }) => {
         icon={<img src={icon} Icon className="bg-white p-1 rounded-full w-full h-full" />}
         style={{ borderLeft: 'none', borderBottom: 'none' }}
       > 
-       <a href={link} >  <img src={srcImg} className="shadow-md rounded-lg w-full max-w-full sm:max-w-md md:max-w-lg lg:max-w-xl h-auto transform transition duration-300 cursor-pointer hover:scale-110"
+       <a href={link} >  <img src={srcImg} className="shadow-md rounded-lg w-full max-w-full sm:max-w-md md:max-w-lg lg:max-w-xl h-auto hover:scale-110 transition duration-300 cursor-pointer transform"
             alt="" />  </a> 
-          <h3 className="mt-3 font-bold text-center text-white text-xl sm:text-2xl">{title}</h3>  
+          <h3 className="mt-3 font-serif font-bold text-white text-xl sm:text-2xl text-center">{title}</h3>  
       </VerticalTimelineElement>
     </>
   );

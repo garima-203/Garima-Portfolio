@@ -45,7 +45,7 @@ const Home = () => {
                                     Save It
                                 </>
                             }
-                            link="https://drive.google.com/file/d/1uWkXWGwv4LVIq6x8p13MNreFUrJJSBlY/view?usp=drive_link"
+                            link="https://drive.google.com/file/d/1kyqyTDl5l7WN4CBjWJYP6cievqk9cTVN/view?usp=drive_link"
                         />
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 
 import React from "react";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaBootstrap } from "react-icons/fa";
-import { SiTailwindcss, SiFirebase, SiAppwrite  } from "react-icons/si";
+import { SiTailwindcss, SiFirebase, SiSupabase } from "react-icons/si";
 
 const skills = {
   "Frontend Development": [
@@ -16,29 +16,29 @@ const skills = {
   ],
   "Backend & Tools": [
     { name: "Firebase", icon: <SiFirebase className="text-yellow-400" /> },
-    { name: "Appwrite", icon: <SiAppwrite className="text-pink-600" /> },
+    {name: "Supabase", icon: <SiSupabase className="bg-black p-1 rounded text-green-500" />, },
   ],
 };
 
 const Skills = () => {
   return (
-    <div className="relative z-10 py-12 min-h-screen text-white">
+    <div className="z-10 relative py-12 min-h-screen text-white">
       <div className="mx-auto px-6 max-w-6xl">
-      <div className="relative flex lg:flex-row flex-col justify-center items-center mt-5 mb-10">
-                <h1 className="font-serif text-4xl xl:text-7xl title-color">Proficiencies</h1>
-            </div>
+        <div className="relative flex lg:flex-row flex-col justify-center items-center mt-5 mb-10">
+          <h1 className="font-serif text-4xl xl:text-7xl title-color">Proficiencies</h1>
+        </div>
 
 
         <div className="gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {Object.entries(skills).map(([category, skillsArray], index) => (
             <div
               key={index}
-              className="relative flex flex-col items-center bg-gray-800/80 p-6 rounded-lg transition-all duration-300 overflow-hidden group hover:scale-105"
+              className="group relative flex flex-col items-center bg-gray-800/80 p-6 rounded-lg overflow-hidden hover:scale-105 transition-all duration-300"
               style={{
                 borderRadius: "12px",
                 boxShadow: "0 0 15px rgba(255, 255, 255, 0.1)",
               }}
-            > 
+            >
 
               <div
                 className="z-[-1] absolute inset-0 rounded-lg pointer-events-none"
@@ -61,7 +61,7 @@ const Skills = () => {
                 {skillsArray.map((skill, skillIndex) => (
                   <div
                     key={skillIndex}
-                    className="flex items-center space-x-3 bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-full transform transition duration-300 hover:scale-110"
+                    className="flex items-center space-x-3 bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-full hover:scale-110 transition duration-300 transform"
                   >
                     <div className="w-6 h-6 text-2xl">{skill.icon}</div>
                     <span className="font-medium text-sm">{skill.name}</span>
