@@ -6,6 +6,8 @@ module.exports = {
     extend: {
       fontFamily: {
         megrim: ['Megrim', 'cursive'],
+         libre: ['Libre Baskerville', 'serif'],
+        great: ['Great Vibes', 'cursive']
       }, 
     },
   },

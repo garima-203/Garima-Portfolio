@@ -74,13 +74,13 @@ const Contact = () => {
       <div className="relative flex flex-col justify-center items-center px-4 h-full">
         
         <div className="relative flex lg:flex-row flex-col justify-center items-center mt-5 mb-10">
-          <h1 className="font-bold font-serif text-4xl text-white md:text-6xl xl:text-7xl">
+          <h1 className="font-megrim font-bold text-white text-4xl md:text-6xl xl:text-7xl">
           Get In Touch
           </h1>
         </div>
   
     
-        <div className="relative z-10 flex md:flex-row flex-col justify-center items-center px-6 w-full max-w-7xl">
+        <div className="z-10 relative flex md:flex-row flex-col justify-center items-center px-6 w-full max-w-7xl">
            
           <div className="mb-5 md:mb-0 w-full md:w-1/2">
             <img
@@ -90,8 +90,8 @@ const Contact = () => {
             />
           </div>
    
-          <div className="relative z-10 bg-black/70 shadow-lg ml-2 p-6 md:p-8 lg:p-12 rounded-lg w-full md:w-1/3">
-            <p className="mb-6 text-center text-gray-400 text-sm md:text-base">
+          <div className="z-10 relative bg-black/70 shadow-lg ml-2 p-6 md:p-8 lg:p-12 rounded-lg w-full md:w-1/3 font-great">
+            <p className="mb-6 text-gray-400 text-lg md:text-xl text-center">
               Feel free to reach out by filling in the form below. We’ll get back to you as soon as possible.
             </p>
             <form onSubmit={handleSubmit} className="space-y-6">
@@ -128,7 +128,7 @@ const Contact = () => {
                   onChange={handleInputChange}
                   placeholder="Your Message"
                   rows="4"
-                  className="bg-gray-700 px-4 py-3 rounded-lg focus:ring-2 focus:ring-teal-500 w-full text-white placeholder-gray-500 resize-none"
+                  className="bg-gray-700 px-4 py-3 rounded-lg focus:ring-2 focus:ring-teal-500 w-full text-white resize-none placeholder-gray-500"
                 ></textarea>
               </div>
             
@@ -136,10 +136,10 @@ const Contact = () => {
               </form>
            
             {formStatus.success && (
-              <p className="mt-4 text-center text-teal-500">{formStatus.success}</p>
+              <p className="mt-4 text-teal-500 text-center">{formStatus.success}</p>
             )}
             {formStatus.error && (
-              <p className="mt-4 text-center text-red-500">{formStatus.error}</p>
+              <p className="mt-4 text-red-500 text-center">{formStatus.error}</p>
             )}
           </div>
         </div>

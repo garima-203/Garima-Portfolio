@@ -10,7 +10,7 @@ const skills = {
     { name: "JavaScript", icon: <FaJs className="text-yellow-500" /> },
     { name: "React JS", icon: <FaReact className="text-cyan-400" /> },
   ],
-  "UI Frameworks": [
+  "Ui Frameworks": [
     { name: "Tailwind", icon: <SiTailwindcss className="text-sky-400" /> },
     { name: "Bootstrap", icon: <FaBootstrap className="text-purple-600" /> },
   ],
@@ -25,7 +25,7 @@ const Skills = () => {
     <div className="z-10 relative py-12 min-h-screen text-white">
       <div className="mx-auto px-6 max-w-6xl">
         <div className="relative flex lg:flex-row flex-col justify-center items-center mt-5 mb-10">
-          <h1 className="font-serif text-4xl xl:text-7xl title-color">Proficiencies</h1>
+          <h1 className="font-megrim text-4xl xl:text-7xl title-color">Proficiencies</h1>
         </div>
 
 
@@ -37,6 +37,7 @@ const Skills = () => {
               style={{
                 borderRadius: "12px",
                 boxShadow: "0 0 15px rgba(255, 255, 255, 0.1)",
+                
               }}
             >
 
@@ -44,9 +45,8 @@ const Skills = () => {
                 className="z-[-1] absolute inset-0 rounded-lg pointer-events-none"
                 style={{
                   background: "linear-gradient(90deg, #e53c91, #708edb)",
-                  padding: "4px",
-                  borderRadius: "12px",
-                  animation: "neon-glow 4s infinite linear",
+                  padding: "4px", 
+                  animation: "neon-glow 4s infinite linear",  
                 }}
               >
                 <div
@@ -56,7 +56,7 @@ const Skills = () => {
               </div>
 
               {/* Card Content */}
-              <h3 className="mb-4 font-semibold text-2xl text-center subhead-color">{category}</h3>
+              <h3 className="mb-3 font-great font-semibold text-3xl text-center subhead-color">{category}</h3>
               <div className="space-y-2">
                 {skillsArray.map((skill, skillIndex) => (
                   <div
@@ -64,7 +64,7 @@ const Skills = () => {
                     className="flex items-center space-x-3 bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-full hover:scale-110 transition duration-300 transform"
                   >
                     <div className="w-6 h-6 text-2xl">{skill.icon}</div>
-                    <span className="font-medium text-sm">{skill.name}</span>
+                    <span className="font-libre font-medium text-sm">{skill.name}</span>
                   </div>
                 ))}
               </div>

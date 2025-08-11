@@ -28,13 +28,13 @@ const Home = () => {
                                 alt="Logo"
                                 className="h-28 sm:h-28 md:h-32 lg:h-40 xl:h-42 hover:scale-105 transition duration-300 transform"
                             />
-                            <h2 className="z-10 font-bold lg:text-2xl sm:text-3xl md:text-4xl xl:text-5xl text-center subhead-color">
-                                ARIMA Upadhyay
+                            <h2 className="z-10 py-5 font-libre font-bold md:text-3xl lg:text-4xl xl:text-5xl text-center subhead-color">
+                               arima Upadhyay
                             </h2>
                         </div>
                         <h1 className="font-megrim font-extrabold text-purple-700 text-2xl md:text-3xl">
                             Frontend Developer</h1>
-                        <p className="mb-6 text-gray-300">
+                        <p className="mb-6 font-libre text-gray-300">
                         Hailing from Uttarakhand, I am dedicated to developing meaningful web solutions that prioritize user experience while embracing growth and new technologies. </p>
 
                         {/* Button */}
